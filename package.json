@@ -1,0 +1,29 @@
+{
+	"name": "jakub-koralewski-typescript-starter-1",
+	"description": "Change your life with this one simple trick!",
+	"version": "2.4.5",
+	"private": true,
+	"dependencies": {
+		"@nuxtjs/axios": "5.4.1",
+		"node-sass": "^4.11.0",
+		"nuxt-property-decorator": "2.1.3",
+		"nuxt-ts": "2.4.5",
+		"prettier": "^1.16.4",
+		"prettier-tslint": "^0.4.2",
+		"sass-loader": "^7.1.0",
+		"tslint-config-prettier": "^1.18.0",
+		"tslint-plugin-prettier": "^2.0.1",
+		"vuex-class": "0.3.2"
+	},
+	"scripts": {
+		"dev": "nuxt-ts",
+		"build": "nuxt-ts build",
+		"start": "nuxt-ts start",
+		"generate": "nuxt-ts generate"
+	},
+	"devDependencies": {
+		"@nuxt/vue-app": "2.4.5",
+		"@types/node": "10.14.1",
+		"@types/webpack-env": "1.13.9"
+	}
+}
